@@ -5,7 +5,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
 builder.Services.AddSingleton<Repository>();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 var app = builder.Build();

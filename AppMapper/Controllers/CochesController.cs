@@ -9,7 +9,6 @@ namespace AppMapper.Controllers
     {
         private Repository repo;
         private IMapper mapper;
-
         public CochesController(Repository repo, IMapper mapper)
         {
             this.repo = repo;
